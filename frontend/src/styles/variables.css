@@ -1,0 +1,66 @@
+:root {
+  /* 主色调 */
+  --primary-color: #4A90D9;
+  --primary-light: #6BA3E0;
+  --primary-dark: #3A7BC8;
+  --primary-bg: rgba(74, 144, 217, 0.08);
+
+  /* 功能色 */
+  --success-color: #07c160;
+  --warning-color: #ff976a;
+  --danger-color: #ee0a24;
+  --info-color: #1989fa;
+
+  /* 文字色 */
+  --text-primary: #323233;
+  --text-secondary: #969799;
+  --text-placeholder: #c8c9cc;
+  --text-white: #ffffff;
+
+  /* 背景色 */
+  --bg-color: #f5f6f7;
+  --bg-white: #ffffff;
+  --bg-gray: #f2f3f5;
+
+  /* 边框色 */
+  --border-color: #ebedf0;
+  --border-light: #f5f5f5;
+
+  /* 聊天相关 */
+  --chat-user-bg: #4A90D9;
+  --chat-ai-bg: #ffffff;
+  --chat-user-text: #ffffff;
+  --chat-ai-text: #323233;
+
+  /* 间距 */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 24px;
+  --spacing-xxl: 32px;
+
+  /* 圆角 */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-round: 50%;
+
+  /* 字体大小 */
+  --font-xs: 10px;
+  --font-sm: 12px;
+  --font-md: 14px;
+  --font-lg: 16px;
+  --font-xl: 18px;
+  --font-xxl: 22px;
+
+  /* 阴影 */
+  --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.12);
+
+  /* 安全区域 */
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-top: env(safe-area-inset-top, 0px);
+}
